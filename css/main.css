@@ -1,0 +1,33 @@
+body {background: url('../img/bg.png');}
+
+	header {width: 100%; background: #d11144; text-align: center; padding: 1% 0 1% 0;}
+
+		h2 {font-size: 2em; color: #fff; width: 75%; margin: auto; font-family: calibri, sans-serif;}
+
+	.main {width: 75%; margin: auto; background: #fff; overflow: hidden;}
+
+		.left, .right {width: 48%; padding: 1%; float: left;}
+
+			.left {}
+
+				.left p:first-child {text-align: center; width: 75%; margin: auto; font-size: 1.2em;}
+
+			.right {}
+
+				#videoIframe {width: 100%;}
+
+				.logo {width: 50%; margin: 2% 25% 2% 25%;}
+
+				.slogan {text-align: center; color: #000; font-size: 1.25em;}			
+
+		.designation, footer {width: 100%; float: left; text-align: center;}
+
+			.designation {background: #002d62; color: #fff;}
+
+			footer {border-top: 1px solid #000;}
+
+				footer p, .designation p {margin: 1% 0 1% 0;}
+
+					footer p {width: 75%; margin: 1% 12.5% 1% 12.5%;}
+
+					footer p:first-child {font-size: .8em;}

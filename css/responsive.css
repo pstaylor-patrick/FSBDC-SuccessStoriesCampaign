@@ -1,0 +1,30 @@
+/* large screens */
+@media (min-width: 1500px) {
+	h2 {font-size: 3em;}
+	footer p {width: 60%; margin-left: 20%; margin-right: 20%;}
+	.left p:first-child {font-size: 1.5em;}
+	.slogan {font-size: 1.75em;}
+}
+
+/* mobile */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.main {width: 90%;}
+		.left, ,.right {width: 48%; padding: 0 1% 0 1%;}
+			.left p:first-child {font-size: 1.5em;}
+}/* iPad in landscape mode */
+
+@media screen and (max-width: 1050px) {
+	h2 {width: 100%;}
+	footer p {width: 100%; margin-left: 0; margin-right: 0;}
+		.left p:first-child {font-size: 1.5em;}
+}
+@media screen and (max-width: 980px) and (orientation : portrait) {
+	.main {width: 100%;}
+		.left, .right {width: 100%; padding: 0; margin: 0;}
+} /* first break point; intentionally under 980 so "new" smartphones and tablets see desktop layout */
+@media (max-width: 800px) {
+	h2 {font-size: 1.5em;}
+} /* second break point */
+@media (max-width: 585px) {
+	h2 .block {display: inline;}
+} /* final break point */
